@@ -1,14 +1,80 @@
-body
+body,html
 {
-    BackGround-color: #d7e6f0;
-    
+    background-color: #d7e6f0;
 }
 h1
 {
     color:#2e2e2e;
+
 }
 p
 {
     color:#6b7a89;
     font-weight: bold;
+    font-size: 20px;
+
+
+}
+.center-container
+{
+    display: flex;
+    justify-content:center; /* Horizontal centering */
+    align-items:center;  /* Vertical centering */
+      height: 100vh;     /* Full viewport height */
+      text-align:center;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: left;
+    gap: 20px; /* Adds space between image and text */
+}
+
+.Profile-Picture {
+ 
+    height: auto;
+ margin-right: 50px; /*  pushes the paragraph to the right */
+}
+.NavBar {
+
+  padding: 0 20px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;          /* makes list horizontal */
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+  margin-left:200px;
+  font-size: 50px;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  background-color: #E4DAF1 ;
+  color: #F2B5A2;
+}
+
+#About-Me
+{
+    display: flex;
+    justify-content:center; /* Horizontal centering */
+    align-items:center;  /* Vertical centering */
+    margin-top: 50px;
+    
+      
 }

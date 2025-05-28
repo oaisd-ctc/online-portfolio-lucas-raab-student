@@ -13,5 +13,6 @@
     "emmet.includeLanguages": {},
     "emmet.showExpandedAbbreviation": "never",
     "emmet.triggerExpansionOnTab": false,
-    "emmet.extensionsPath": []
+    "emmet.extensionsPath": [],
+    "liveServer.settings.port": 5503
 }
