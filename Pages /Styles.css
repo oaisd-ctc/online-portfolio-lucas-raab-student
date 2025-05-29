@@ -6,7 +6,7 @@ html {
 p {
     color: #6b7a89;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 
 
 }
@@ -106,4 +106,19 @@ p {
     /* Horizontal centering */
     align-items: center;
     /* Vertical centering */
+}
+.Information-About-Contacts
+{
+    display:flex;
+    Justify-content: space-between;
+    margin-left:400px;
+    margin-right:400px;
+    
+}
+.My-links
+{
+     display:flex;
+    Justify-content: space-between;
+    margin-left:400px;
+    margin-right:400px;
 }
