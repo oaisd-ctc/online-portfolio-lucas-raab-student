@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lucas Raab Portfolio</title>
-  <link rel="stylesheet" href="/Pages /Styles.css" />
+  <link rel="stylesheet" href="/Pages/Styles.css" />
 </head>
 
 <body>
@@ -19,13 +19,15 @@
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="Dark-Mode-Button" onclick="myFunction()">Toggle Dark Mode</button>
+
       <hr style="height: 5px; background-color: black; border: none; margin-top: 0;">
     </nav>
   </header>
 
   <!-- About Me Section -->
   <section id="About-Me">
-    <h1>About Me</h1>
+    <h1 style="font-size:100px">About Me</h1>
   </section>
   <section>
     <div class="center-container">
@@ -42,20 +44,13 @@
 
   <!-- Placeholder sections for Experience, Certifications, Contact -->
   <section id="experience">
-    <h2>Experience</h2>
-    <div class="project-card">
-      <h3>🧮 C# Console Calculator</h3>
-      <p>A simple calculator built with C# that handles basic arithmetic operations in the console. Includes input
-        validation and a clean code structure.</p>
-      <ul class="tech-used">
-        <li>C#</li>
-        <li>.NET Console App</li>
-      </ul>
-      <a href="https://github.com/oaisd-ctc/c-playground-lucas-raab-student?tab=readme-ov-file" class="github-button">🔗
-        View on GitHub</a>
-    </div>
+    <h1 style="font-size:100px">Experience</h1>
+    <div class="Project Cards">
 
-    <!-- Your experience content here -->
+    </div>
+    
+
+    <!--  experience content here -->
   </section>
 
   <section id="certifications">
@@ -72,7 +67,7 @@
   </section>
 
   <div id="contact">
-    <h1>Contact</h1>
+    <h1 style="font-size:100px">Contact</h1>
   </div>
 
   <div class="Information-About-Contacts">
@@ -81,12 +76,21 @@
     <p style="font-size:60px"> My git hub</p>
   </div>
   <div class="My-links">
-    <a href="mailto:luraab@yahoo.com">luraab@yahoo.com</a>
+    <div class="Email">
+      <a style="font-size:30px" href="mailto:luraab@yahoo.com" target="_blank">luraab@yahoo.com</a>
+    </div>
+    <div class="Github-Link">
+      <a href="https://github.com/lucas-raab-student" target="_blank" style="font-size:30px">My GitHub</a>
+    </div>
+  </div>
+  <script>
+    function myFunction() {
+      var element = document.body
+      element.classList.toggle("dark-mode")
+    }
+  </script>
  
-   <a href="https://github.com/oaisd-ctc/c-playground-lucas-raab-student?tab=readme-ov-file"
-      class="github-button">hi</a>
- </div>
-
+  
 
 </body>
 

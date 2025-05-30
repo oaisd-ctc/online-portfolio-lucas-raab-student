@@ -1,5 +1,5 @@
-body,
-html {
+body
+ {
     background-color: #d7e6f0;
 }
 
@@ -11,16 +11,8 @@ p {
 
 }
 
-.center-container {
-    display: flex;
-    justify-content: center;
-    /* Horizontal centering */
-    align-items: center;
-    /* Vertical centering */
-    height: 100vh;
-    /* Full viewport height */
-    text-align: center;
-}
+
+
 
 .center-container {
     display: flex;
@@ -122,3 +114,52 @@ p {
     margin-left:400px;
     margin-right:400px;
 }
+
+.Github-Link a:hover,.Email a:hover
+{
+     
+    background-color: #E4DAF1;
+    color: #F2B5A2;
+
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+
+.dark-mode p {
+    color: #A0A0A0;
+}
+
+.dark-mode .nav-menu a {
+    color: #E0E0E0;
+}
+
+.dark-mode .nav-menu a:hover {
+    background-color: #1F1B24;
+    color: #BB86FC;
+}
+
+.dark-mode .Github-Link a:hover,
+.dark-mode .Email a:hover {
+    background-color: #1F1B24;
+    color: #F2B5A2;
+}
+
+.dark-mode .center-container,
+.dark-mode #About-Me,
+.dark-mode #experience,
+.dark-mode #certifications,
+.dark-mode #contact {
+  background-color: #121212;  /* or transparent if you want */
+  color: #E0E0E0;
+}
+
+.dark-mode .Dark-Mode-Button {
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+
