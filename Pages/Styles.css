@@ -96,17 +96,17 @@ p {
     margin-top: 50px;
     font-size: 65.9px;
 }
-.Project-Cards
-{
-    height: auto;
-    margin-right: 50px;
-    /*  pushes the paragraph to the right */
-    display: flex;
-    justify-content: center;
-    /* Horizontal centering */
-    align-items: center;
-    /* Vertical centering */
+.Project-Cards {
+  height: auto;
+  margin-right: 50px;
+
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center;     /* Vertically center content */
+
 }
+
+
 
 
 .Image-Certifcations {

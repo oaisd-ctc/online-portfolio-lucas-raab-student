@@ -20,16 +20,13 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
       <button class="Dark-Mode-Button" onclick="myFunction()">Toggle Dark Mode</button>
-
-      <hr style="height: 5px; background-color: black; border: none; margin-top: 0;">
     </nav>
+    <hr style="height: 5px; background-color: black; border: none; margin-top: 0;">
   </header>
 
   <!-- About Me Section -->
   <section id="About-Me">
     <h1 style="font-size:100px">About Me</h1>
-  </section>
-  <section>
     <div class="center-container">
       <img src="Images/Picture of Me.jpg" alt="Image of Lucas Raab" width="287" height="419" class="Profile-Picture" />
       <p class="intro-text">
@@ -42,56 +39,50 @@
     </div>
   </section>
 
-  <div id="experience">
-    
+  <!-- Experience Section -->
+  <section id="experience">
     <h1 style="font-size:100px">Experience</h1>
-    </div>
-    <div class="Project-Cards">
-      <img src="Images/Mutated horror made by Me.png" alt="Pic of mutated horror" width="400"/>
-    </div>
-    
-
-    <!--  experience content here -->
- 
-
-  <section id="certifications">
-    <header>
-      <h2>Certifications</h2>
-    </header>
+    <article >
+      <img src="Images/Mutated horror made by Me.png" alt="Pic of mutated horror" width="400" class="Project-Cards" />
+      <!-- Add description or project title here if needed -->
+    </article>
   </section>
-  <section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications</h2>
     <div class="Image-Certifcations">
       <img src="Images/Certifaction desings.png"
-        alt="Image with CompTIA certfication.Unity user Programmer Certification,IT speaclist html and css Certifaction"
+        alt="Image with CompTIA certification, Unity User Programmer Certification, IT Specialist HTML and CSS Certification"
         width="868.7" height="488.6" />
     </div>
   </section>
 
-  <div id="contact">
+  <!-- Contact Section -->
+  <section id="contact">
     <h1 style="font-size:100px">Contact</h1>
-  </div>
-
-  <div class="Information-About-Contacts">
-    <p style="font-size:60px"> My email</p>
-
-    <p style="font-size:60px"> My git hub</p>
-  </div>
-  <div class="My-links">
-    <div class="Email">
-      <a style="font-size:30px" href="mailto:luraab@yahoo.com" target="_blank">luraab@yahoo.com</a>
+    <div class="Information-About-Contacts">
+      <p style="font-size:60px"> My email</p>
+      <p style="font-size:60px"> My GitHub</p>
     </div>
-    <div class="Github-Link">
-      <a href="https://github.com/lucas-raab-student" target="_blank" style="font-size:30px">My GitHub</a>
-    </div>
-  </div>
+    <address class="My-links">
+      <div class="Email">
+        <a style="font-size:30px" href="mailto:luraab@yahoo.com" target="_blank">luraab@yahoo.com</a>
+      </div>
+      <div class="Github-Link">
+        <a href="https://github.com/lucas-raab-student" target="_blank" style="font-size:30px">My GitHub</a>
+      </div>
+    </address>
+  </section>
+
+  <!-- Footer could go here if needed -->
+
   <script>
     function myFunction() {
-      var element = document.body
-      element.classList.toggle("dark-mode")
+      var element = document.body;
+      element.classList.toggle("dark-mode");
     }
   </script>
- 
-  
 
 </body>
 
