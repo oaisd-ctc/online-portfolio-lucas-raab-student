@@ -74,6 +74,30 @@ p {
 
 
 }
+.MyGameLink
+{
+       display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Vertical centering */
+    margin-top: 50px;
+    font-size:60px;
+}
+  .MyGameLink a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+
+  .MyGameLink a:hover {
+    background-color: #21867a;
+  }
+
 
 #certifications {
     display: flex;
