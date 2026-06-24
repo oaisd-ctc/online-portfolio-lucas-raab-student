@@ -208,3 +208,16 @@ p {
 }
 
 
+.container {
+  width: 500px;
+  text-align: center;
+}
+
+#galleryImage {
+  width: 100%;
+  background-color:red;
+}
+#galleryImage {
+  width: 100%;
+  transition: opacity 10s ease-in-out;
+}
