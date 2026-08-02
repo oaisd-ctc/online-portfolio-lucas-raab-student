@@ -207,17 +207,29 @@ p {
     color: #E0E0E0;
 }
 
+#certifications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 40px;
+    font-size: 65.9px;
+}
 
-.container {
-  width: 500px;
-  text-align: center;
+#certifications .Cert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    overflow: visible;
+    gap: 20px;
 }
 
 #galleryImage {
-  width: 100%;
-  background-color:red;
-}
-#galleryImage {
-  width: 100%;
-  transition: opacity 10s ease-in-out;
+    display: block;
+    width: 800px;
+    max-width: 90vw;
+    height: auto;
 }
